@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Login } from './Login';
-import { BusinessPartners } from './BusinessPartners';
-import { loadBusinessPartners } from './client';
+import React, { Component } from "react";
+import "./App.css";
+import { Login } from "./Login";
+import { BusinessPartners } from "./BusinessPartners";
+import { loadBusinessPartners } from "./client";
 
 class App extends Component {
   constructor(props) {

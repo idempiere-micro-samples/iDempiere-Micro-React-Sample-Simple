@@ -1,6 +1,6 @@
 
 export function login(userName, password, callback) {
-    fetch('http://localhost:9080/idempiere-micro-liberty-standalone/session/' + userName + '/login/' + password)
+    fetch("http://localhost:9080/idempiere-micro-liberty-standalone/session/" + userName + "/login/" + password)
     .then(response => response.json())
     .then(data => {
         callback(data);
@@ -8,7 +8,7 @@ export function login(userName, password, callback) {
 }
 
 export function loadBusinessPartners(token, callback) {
-    fetch('http://localhost:9080/idempiere-micro-liberty-standalone/graphql',
+    fetch("http://localhost:9080/idempiere-micro-liberty-standalone/graphql",
       {
         method: "POST",      
         headers: {
@@ -16,7 +16,7 @@ export function loadBusinessPartners(token, callback) {
           "Authorization": "Bearer " + token
         },
         body: JSON.stringify({
-          query: 'query { businessPartners { id name searchKey } }'
+          query: "query { businessPartners { id name searchKey } }"
         })
       }
     )

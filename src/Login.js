@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { login } from './client';
+import React, { Component } from "react";
+import { login } from "./client";
 
 export class Login extends Component {
     constructor(props) {
       super(props);
-      this.state = {userName: '', password: ''};
+      this.state = {userName: "", password: ""};
   
       this.handleNameChange = this.handleNameChange.bind(this);
       this.handlePasswordChange = this.handlePasswordChange.bind(this);
@@ -22,7 +22,7 @@ export class Login extends Component {
     handleSubmit(event) {
         var userName = this.state.userName;
         var password = this.state.password;
-        console.log('A name was submitted: ' + userName + ' with password ' + password );
+        console.log("A name was submitted: " + userName + " with password " + password );
 
         login(userName, password, this.props.handleLogin);
 
