@@ -1,3 +1,6 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/bafb0fd8f655ebb8d78a/maintainability)](https://codeclimate.com/github/idempiere-micro-samples/iDempiere-Micro-React-Sample-Simple/maintainability)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc44434f97a94f098327e5a77eccbe7a)](https://www.codacy.com/app/davidpodhola/iDempiere-Micro-React-Sample-Simple?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=idempiere-micro-samples/iDempiere-Micro-React-Sample-Simple&amp;utm_campaign=Badge_Grade)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
