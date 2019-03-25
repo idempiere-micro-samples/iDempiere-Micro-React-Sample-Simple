@@ -22,7 +22,6 @@ export class Login extends Component {
     handleSubmit(event) {
         var userName = this.state.userName;
         var password = this.state.password;
-        console.log("A name was submitted: " + userName + " with password " + password );
 
         login(userName, password, this.props.handleLogin);
 

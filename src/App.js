@@ -13,10 +13,9 @@ class App extends Component {
   }
 
   handleLogin(loginResponse) {
-    console.log("got ", loginResponse);
-    this.setState({loginResponse: loginResponse});
+    this.setState({loginResponse});
     if (loginResponse && loginResponse.logged) {
-      loadBusinessPartners(loginResponse.token, (businessPartners) => this.setState({businessPartners: businessPartners}))
+      loadBusinessPartners(loginResponse.token, (businessPartners) => this.setState({businessPartners}));
     }
   }
 
@@ -26,19 +25,19 @@ class App extends Component {
         <div className="App">
           <Login handleLogin={(token) => this.handleLogin(token)} />
         </div>
-      )  
+      );
     } else if (this.state.businessPartners == null )  {
       return (
         <div className="App">
           Loading business partners...
         </div>
-      )
+      );
     }else {
       return (
         <div className="App">
           <BusinessPartners businessPartners={this.state.businessPartners} />
         </div> 
-      )
+      );
     }
   }
 }
