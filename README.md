@@ -1,7 +1,13 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/bafb0fd8f655ebb8d78a/maintainability)](https://codeclimate.com/github/idempiere-micro-samples/iDempiere-Micro-React-Sample-Simple/maintainability)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc44434f97a94f098327e5a77eccbe7a)](https://www.codacy.com/app/davidpodhola/iDempiere-Micro-React-Sample-Simple?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=idempiere-micro-samples/iDempiere-Micro-React-Sample-Simple&amp;utm_campaign=Badge_Grade)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The application is intentionally very simple and not polished (even ugly). It is created for [iDempiere](http://www.idempiere.org/) developers to see how [iDempiere micro](https://idempiere-micro.github.io/) can be used and how a simple [React](https://reactjs.org/) client can look like. It is not a production-ready application and does not even need to follow the best-practices of React development as simplicity is the most important factor here. This frontend is compatible with [the standalone iDempiere Micro Java 8 EE microservice](https://github.com/iDempiere-micro/idempiere-micro-liberty-standalone).
+
+## Prerequisities
+
+- you must have the iDempiere 6.2 database up and running. You can use the [idempiere-docker-pgsql-6.2](https://github.com/iDempiere-micro/idempiere-docker-pgsql-6.1/tree/6.2).
+- you must have the standalone iDempiere Micro Java 8 EE microservice](https://github.com/iDempiere-micro/idempiere-micro-liberty-standalone) up and running and connected to the iDempiere 6.2 database.
+- the source code in the project expects the microservice to be available at `http://localhost:9080/idempiere-micro-liberty-standalone/`.
 
 ## Available Scripts
 
@@ -46,26 +52,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To explore other iDempiere Micro samples, visit the [iDempiere micro samples collection](https://github.com/idempiere-micro-samples).
