@@ -5,9 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Prerequisities
 
-- you must have the iDempiere 6.2 database up and running. You can use the [idempiere-docker-pgsql-6.2](https://github.com/iDempiere-micro/idempiere-docker-pgsql-6.1/tree/6.2).
-- you must have the standalone iDempiere Micro Java 8 EE microservice](https://github.com/iDempiere-micro/idempiere-micro-liberty-standalone) up and running and connected to the iDempiere 6.2 database.
-- the source code in the project expects the microservice to be available at `http://localhost:9080/idempiere-micro-liberty-standalone/`.
+  - you must have the iDempiere 6.2 database up and running. You can use the [idempiere-docker-pgsql-6.2](https://github.com/iDempiere-micro/idempiere-docker-pgsql-6.1/tree/6.2).
+  - you must have the standalone iDempiere Micro Java 8 EE microservice](https://github.com/iDempiere-micro/idempiere-micro-liberty-standalone) up and running and connected to the iDempiere 6.2 database.
+  - the source code in the project expects the microservice to be available at `http://localhost:9080/idempiere-micro-liberty-standalone/`.
 
 ## Available Scripts
 
