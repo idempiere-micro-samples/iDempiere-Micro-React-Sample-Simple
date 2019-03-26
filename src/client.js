@@ -1,8 +1,8 @@
 
 export function login(userName, password, callback) {
     fetch("http://localhost:9080/idempiere-micro-liberty-standalone/session/" + userName + "/login/" + password)
-    .then(response => response.json())
-    .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
         callback(data);
     });
 }
@@ -20,8 +20,8 @@ export function loadBusinessPartners(token, callback) {
         })
       }
     )
-    .then(response => response.json())
-    .then(data => {
-        callback(data.data.businessPartners)
+    .then((response) => response.json())
+    .then((data) => {
+        callback(data.data.businessPartners);
     });
   }
